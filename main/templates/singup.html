@@ -1,0 +1,92 @@
+{% extends "layout.html" %} {% load static %} {% block difbody %} 
+    
+       
+      <div class="header_title">
+        <img src="{% static 'assets/images/slider/site_bg.jpg'%}" alt="" />
+        <div class="header_title__content">
+          <div class="container">
+            <h2>ثبت نام</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="singup_content">
+      <div class="container">
+        <div class="row">
+          <article class="singup-forms col-md-7 col-sm-7 col-xs-12 pull-right">
+            <h4>ثبت نام</h4>
+            <form action="" method="post">
+              <div class="row">
+                <div class="col-md-6 col-xs-12 pull-right">
+                  <input
+                    class="form-control"
+                    type="text"
+                    value=""
+                    placeholder="نام"
+                  />
+                  <input
+                    class="form-control"
+                    type="text"
+                    value=""
+                    placeholder="نام خانوادگی"
+                  />
+                  <input
+                    class="form-control"
+                    type="text"
+                    value=""
+                    placeholder="کلمه عبور"
+                  />
+                </div>
+                <div class="col-md-6 col-xs-12 pull-right">
+                  <input
+                    class="form-control"
+                    type="text"
+                    value=""
+                    placeholder="آدرس ایمیل"
+                  />
+                  <input
+                    class="form-control"
+                    type="text"
+                    value=""
+                    placeholder="تکرار آدرس ایمیل"
+                  />
+                  <input
+                    class="form-control"
+                    type="text"
+                    value=""
+                    placeholder="تکرار کلمه عبور"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <button class="button">ثبت نام</button>
+                </div>
+              </div>
+            </form>
+          </article>
+          <article class="singup-forms col-md-4 col-sm-4 col-xs-12 pull-right">
+            <h4>ورود به حساب کاربری</h4>
+            <div class="row">
+              <form action="" method="post">
+                <div class="col-md-12">
+                  <input
+                    class="form-control"
+                    type="text"
+                    value=""
+                    placeholder="آدرس ایمیل"
+                  />
+                  <input
+                    class="form-control"
+                    type="text"
+                    value=""
+                    placeholder="کلمه عبور"
+                  />
+                  <button class="button">ورورد</button>
+                </div>
+              </form>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    {% endblock %} 
